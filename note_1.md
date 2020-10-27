@@ -16,7 +16,8 @@
 7 SGD
 8 Sequence 
     序列学习
-        RNN LSTM
+        RNN !!!hotfix
+        LSTM
 9 Regulization--
     L1L2范数惩罚
 10 Nomolization-
@@ -32,3 +33,4 @@
     那么这种上下文的语义可以通过RNN/LSTM/GRU来解决，RNN与普通深度学习不同的是，RNN是一种序列的模型，会有一定的记忆单元，能够记住之前的历史信息，从而可以建模这种上下文相关的一些语义。RNN中的记忆单元可以记住当前词之前的信息。
     但RNN的结构不可支持长期记忆，lstm可以解决RNN长时依赖梯度消失的问题。
 16 n-gram词袋
+17
