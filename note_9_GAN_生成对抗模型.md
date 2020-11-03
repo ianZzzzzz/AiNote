@@ -6,7 +6,7 @@ graph TB
     真品
     object
     Discriminator
-    真实
+    真
    
 
     随机噪声 --输入--> Generator --制造--> 伪造品 --> object
@@ -15,8 +15,9 @@ graph TB
    
     
     object-->label
-    object-->Discriminator --score-->loss_function
-    label-->loss_function-->optimizer-->Discriminator
+    object-->Discriminator -->D_loss_function
+    label-->D_loss_function-->optimizer-->Discriminator
+    Discriminator-->G_loss_function-->Generator
 
 
 ```
