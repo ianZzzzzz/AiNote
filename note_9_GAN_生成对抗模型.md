@@ -6,7 +6,7 @@ graph TB
     真品
     object
     Discriminator
-    真
+    
    
 
     随机噪声 --输入--> Generator --制造--> 伪造品 --> object
